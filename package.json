@@ -1,6 +1,7 @@
 {
   "name": "feta",
-  "version": "0.0.0",
+  "description": "a facial expression training application for security, educational, and medical professionals",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -43,9 +44,10 @@
     "karma-ng-html2js-preprocessor": "~0.1.0"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
+    "start": "/app/index.html",
     "test": "grunt test"
   }
 }
