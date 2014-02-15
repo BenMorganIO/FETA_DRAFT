@@ -1,6 +1,6 @@
 'use strict';
 
-feta.controller('GlossaryCtrl', function ($scope) {
+feta.controller('GlossaryCtrl', ['$scope', function ($scope) {
   $scope.glossary = [
     {"title": "Anger",
      "text": "An emotion that involves a strong uncomfortable and emotional response to a perceived provocation."},
@@ -83,4 +83,4 @@ feta.controller('GlossaryCtrl', function ($scope) {
     {"title": "Zygomatic Minor",
      "text": "A muscle used to pull the lip corner (AU12) and deepen the display of the nasolabial fold (AU11)."}
   ];
-});
+}]);
