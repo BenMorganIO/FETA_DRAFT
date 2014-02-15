@@ -2,6 +2,10 @@
   "name": "feta",
   "description": "a facial expression training application for security, educational, and medical professionals",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/BenMorganIO/FETA"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
