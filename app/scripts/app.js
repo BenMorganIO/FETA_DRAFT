@@ -33,6 +33,6 @@ feta.config(function ($routeProvider) {
       controller: 'GlossaryCtrl'
     })
     .otherwise({
-      redirectTo: '/'
+      templateUrl: '404.html'
     });
 });
