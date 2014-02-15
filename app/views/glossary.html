@@ -14,7 +14,7 @@
 		</div>
 	</div>
 </div>
-<div ng-controller="GlosCtrl">
+<div ng-controller="GlossaryCtrl">
 	<table class="table table-striped">
 		<thead>
 			<tr>
@@ -23,7 +23,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr ng-repeat="info in glossary | filter:search">
+			<tr ng-repeat="info in glossary | filter: search">
 				<td>{{info.title}}</td>
 				<td>{{info.text}}</td>
 			</td>
