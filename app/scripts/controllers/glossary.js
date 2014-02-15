@@ -1,3 +1,5 @@
+'use strict';
+
 function GlosCtrl($scope) {
 	$scope.glossary = [
 		{"title": "Anger",
