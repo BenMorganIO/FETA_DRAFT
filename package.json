@@ -54,7 +54,7 @@
     "node": "0.10.25"
   },
   "scripts": {
-    "start": "app/",
+    "start": "dist/",
     "test": "grunt test"
   }
 }
