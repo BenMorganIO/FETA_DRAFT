@@ -6,7 +6,10 @@
     "type": "git",
     "url": "http://github.com/BenMorganIO/FETA"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gzippo": "~0.2.0",
+    "express": "~3.4.8"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
