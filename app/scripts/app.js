@@ -5,4 +5,4 @@ var feta = angular.module('fetaApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute'
-])
+]);

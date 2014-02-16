@@ -1,22 +1,20 @@
-<div  class="row">
-  <div id="screen" class="well col-md-9">
-    <img src="#" />
-  </div>
-  <div class="col-md-3">
-    <div class="list-group text-center">
-      <a href="#" class="list-group-item"> Happiness </a>
-      <a href="#" class="list-group-item"> Sadness </a>
-      <a href="#" class="list-group-item"> Anger </a>
-      <a href="#" class="list-group-item"> Disgust </a>
-      <a href="#" class="list-group-item"> Fear </a>
-      <a href="#" class="list-group-item"> Surprise </a>
-      <a href="#" class="list-group-item active"> Muscle &amp; AUs </a>
+<div ng-controller="ExpressionsCtrl">
+  <div  class="row">
+    <div id="screen" class="well col-md-9">
+      <img src="#" />
+    </div>
+    <div class="col-md-3">
+      <div class="list-group text-center">
+        <a href="#" class="list-group-item"> Happiness </a>
+        <a href="#" class="list-group-item"> Sadness </a>
+        <a href="#" class="list-group-item"> Anger </a>
+        <a href="#" class="list-group-item"> Disgust </a>
+        <a href="#" class="list-group-item"> Fear </a>
+        <a href="#" class="list-group-item"> Surprise </a>
+        <a href="#" class="list-group-item active"> Muscle &amp; AUs </a>
+      </div>
     </div>
   </div>
+  <p class="row well well-lg" ng-include="notes.url">
+  </p>
 </div>
-<p class="row well well-lg" ng-include="app/views/expressions/happiness.html">
-  As you click through the six basic emotions, you'll be introduced to the selected emotion at its maximum expression.
-  Every section teaches you how to recognize the emotion through a qualitative means by presenting the relevant codes from the Facial Action Coding System (FACS) and the relevant muscles used.
-  The FACS is a coding system developed to help scientists quantitatively define facial movements through a non-SI dimensional quantity called Action Units (AU).
-  The Muscle and AU option will give you the ability to see the expression with the muscles and AUs laid out on top of the selected emotion.
-</p>
