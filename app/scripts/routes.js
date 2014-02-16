@@ -10,7 +10,7 @@ feta.config(function ($routeProvider) {
       templateUrl: 'views/about.html',
     })
     .when('/expressions', {
-      templateUrl: 'views/expressions/expressions.html',
+      templateUrl: 'views/expressions/show.html',
       controller: 'ExpressionsCtrl'
     })
     .when('/exercises', {
