@@ -12,4 +12,14 @@
 		background: black;
 		border-radius: 5px;
 	}
+
+	img[alt] {
+		color: #e4e4e4;
+	}
+}
+
+#expressions-nav {
+	ul {
+		display: flex;
+	}
 }

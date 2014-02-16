@@ -1,10 +1,21 @@
 <div ng-controller="ExpressionsCtrl">
   <div  class="row">
     <div id="screen" class="well col-md-9">
-      <img src="#" />
+      <img src="#" alt="&nbsp;&nbsp;Loading..."/>
     </div>
-    <div class="col-md-3">
-      <div class="list-group text-center">
+    <div class="visible-xs visible-sm" id="expressions-nav">
+      <ul class="nav navbar navbar-inverse col-md-3">
+        <li><a href="" ng-click="emotion(1)"> Happiness </a></li>
+        <li><a href="" ng-click="emotion(2)"> Sadness </a></li>
+        <li><a href="" ng-click="emotion(3)"> Anger </a></li>
+        <li><a href="" ng-click="emotion(4)"> Disgust </a></li>
+        <li><a href="" ng-click="emotion(5)"> Fear </a></li>
+        <li><a href="" ng-click="emotion(6)"> Surprise </a></li>
+        <li><a href="" class="active"> Muscle &amp; AUs </a></li>
+      </ul>
+    </div>
+    <div class="visible-md visible-lg col-md-3">
+      <div class="list-group">
         <a href="" class="list-group-item" ng-click="emotion(1)"> Happiness </a>
         <a href="" class="list-group-item" ng-click="emotion(2)"> Sadness </a>
         <a href="" class="list-group-item" ng-click="emotion(3)"> Anger </a>
