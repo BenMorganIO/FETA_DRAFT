@@ -1,3 +1,5 @@
+'use strict';
+
 feta.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
@@ -9,15 +11,13 @@ feta.config(function ($routeProvider) {
     })
     .when('/expressions', {
       templateUrl: 'views/expressions/expressions.html',
-      controller: 'ExprCtrl'
+      controller: 'ExpressionsCtrl'
     })
     .when('/exercises', {
       templateUrl: 'views/exercises.html',
-      controller: 'ExerCtrl'
     })
     .when('/settings', {
       templateUrl: 'views/settings.html',
-      controller: 'SetsCtrl'
     })
     .when('/glossary', {
       templateUrl: 'views/glossary.html',
