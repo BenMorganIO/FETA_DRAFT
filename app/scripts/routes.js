@@ -1,6 +1,6 @@
 'use strict';
 
-feta.config(function ($routeProvider, $locationProvider) {
+feta.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'views/main.html',
@@ -26,6 +26,4 @@ feta.config(function ($routeProvider, $locationProvider) {
     .otherwise({
       templateUrl: '404.html'
     });
-
-  $locationProvider.html5Mode(true);
 });
